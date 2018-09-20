@@ -5,9 +5,11 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlRootElement;
 
 @Table(name="NOTA")
 @Entity
+@XmlRootElement
 public class Nota {
 
 	@GeneratedValue
